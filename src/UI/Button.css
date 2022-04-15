@@ -1,0 +1,21 @@
+.myButton {
+	box-shadow: 0px 10px 14px -7px #093138;
+	border-radius:20px;
+    background-color: rgb(172, 219, 126);
+	cursor:pointer;
+	color:#ffffff;
+	font-size:12px;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #04141a;
+    border: none;
+    color: black;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #3fe067 5%, #3df85c 100%);
+	background-color:#82e763;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

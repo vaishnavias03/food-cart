@@ -1,0 +1,23 @@
+
+ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;;
+    background-color: rgb(152, 253, 165);
+    padding: 10px;
+    position: fixed;
+    z-index: 1;
+}
+ul >li{
+    padding-left: 20px;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover{
+    color: dodgerblue;
+}

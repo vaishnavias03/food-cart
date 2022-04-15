@@ -1,0 +1,25 @@
+.bill-wrapper{
+    
+}
+#table{
+    margin: 20px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+#row{
+    margin: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#row > :nth-child(3){
+    text-align: right;
+}
+#subtotal{
+    font-weight: bolder;
+}
+#line{
+    width: 100%;
+    background-color: rgb(211, 208, 208);
+    height: 0.09rem;
+    color: white;
+}

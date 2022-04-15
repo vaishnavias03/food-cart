@@ -1,0 +1,85 @@
+#root{
+    display: grid;
+    grid-template-rows: 5% 95%;
+}
+ul{
+    margin: 0;
+}
+.message{
+    background-color: rgb(71, 197, 71);
+    color: white;
+    position: fixed;
+    top: 5%;
+    left: 38%;
+    z-index: 1;
+    border-radius: 70px;
+    width: 20%;
+    text-align: center;
+    transition-property: top;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.List-container{
+    display: grid;
+    grid-template-columns:  auto auto auto auto;
+    margin: 1rem;
+    
+}
+.list-wrapper{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    margin: 20px;
+    padding: 15px;
+    background-color: rgb(253, 253, 253);
+    box-shadow: 12px 12px 26px 2px rgba(156,150,156,1);
+
+}
+.item-name{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image-wrapper{
+    width: 200px;
+    position: relative;    
+}
+.item-image{
+    width:17rem;
+    height:13rem;
+    cursor: pointer;
+    margin: 1px;
+    border-radius: 10%;
+    padding: 15px;
+}
+.item-offer {
+    position: absolute;
+    top: 65%;
+    left: -21%;
+    background-color: rgb(243, 3, 135);
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 40%;
+    text-align: center;
+    font-size: small;
+    font-weight: bolder;
+}
+.item-offer-text{
+    height: 10px;
+}
+.list-wrapper2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.add-button{
+    margin: 0.6rem;
+}
+.name-rating-wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.item-rating{
+  background-color: rgb(248, 211, 166);
+  padding: 0.4rem;
+  border-radius: 2rem;
+}
