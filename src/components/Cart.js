@@ -60,12 +60,15 @@ const DeleteItem =(items) =>
                             <div id="cart-image-wrapper">
                                 <img className="cart-item-img" src={items.item.src}></img>
                             </div>
+
                             <div id="cart-name-wrapper">
                                 <span className="cart-item-name">{items.item.name}</span>
                             </div>
+
                             <div id="cart-cost-wrapper">
                                 <span className="cart-item-cost">${items.item.cost}</span>
                             </div>
+                            
                             <div id="delete-button">
                                 <div>
                                     <Button id="delete" buttonName={"Delete"} onClick={() =>DeleteItem(items)} style={"right"}/>
@@ -97,21 +100,3 @@ const DeleteItem =(items) =>
 }
 export default Cart;
 
-/*
-                    <span >
-                        
-
-                    </span>
-                    <span className="name-cost-wrapper">
-                        <span>
-
-                        </span>
-        
-                        <span>
-                            <span className="count-button-wrapper">
-
-                            </span>
-                            
-                        </span>
-                    </span>
-                    */

@@ -5,7 +5,7 @@ import { CartItemsContext } from "../CartItemsContext"
 function Bill(){
     const {cartItems, setCartItems} = useContext(CartItemsContext);
     var totalCost = 0;
-return(
+    return(
     <div className="bill-wrapper">
         <div id="table">
             <div id="row">
@@ -13,8 +13,9 @@ return(
                 <span></span>
                 <span></span>
             </div>
-            {cartItems.map((element) =>{
-                 totalCost = totalCost + ((element.item.cost) * (element.count))
+            {cartItems.map((element) =>
+            {
+                totalCost = totalCost + ((element.item.cost) * (element.count))
                 return(
                     <div>
                         <div id="row">
@@ -26,7 +27,7 @@ return(
                     
                 );
             })}
-            
+            {/* To draw a line  */}
             <div id="line">-</div>
             <div id="row">
                 <span id="subtotal">SubTotal</span>
